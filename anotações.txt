@@ -1,0 +1,13 @@
+useState - estado dentro de uma função
+
+use Effect - renderiza f5 ou a cada interação
+
+
+
+
+como criar 
+
+
+    useEffect(() => {
+        console.log('Rodou useEffect')
+    }, [])
