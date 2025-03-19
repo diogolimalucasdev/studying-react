@@ -11,3 +11,7 @@ como criar
     useEffect(() => {
         console.log('Rodou useEffect')
     }, [])
+
+
+
+controlador de estado - useState

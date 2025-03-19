@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 export default function Count() {
+
+    // o count é meu estado da variavel, o setcount é quando eu vou definir o estado da variavel = o useState eu vou definir um novo valor
     const [count, setCount]= useState(0)
 
     function handleConsole() {
@@ -28,10 +30,12 @@ export default function Count() {
         <div className="">
             <h1>Count: {count}</h1>
             <button onClick={handleConsole}>+</button>
-            {/* <button onClick={() => setCount(count + 1)}>+</button> */}
-            <button onClick={addCount}> +10 </button>
             <button onClick={resetCount}> Reset</button>
             <button onClick={declineCount}> -</button>
+            {/* <button onClick={() => setCount(count + 1)}>+</button> */}
+            <button onClick={addCount}> +10 </button>
+         
+          
         </div>
     )
 }
