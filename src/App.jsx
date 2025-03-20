@@ -9,10 +9,10 @@ import Fetch from './fetch'
 export default function App() {
   return (
     <div>
-     <Js fullName={'Diogo Lima'}  profissao={'Suporte'}/>
+     {/* <Js fullName={'Diogo Lima'}  profissao={'Suporte'}/>
      <Example />
      <Fetch></Fetch>
-     <Count></Count>
+     <Count></Count> */}
      <Accordion></Accordion>
     </div>)
 }

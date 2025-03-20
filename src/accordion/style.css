@@ -1,0 +1,29 @@
+.accordion-container {
+    border-top: 2px solid  black;
+    width: 100%;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-top {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    
+    
+}
+
+.accordion-top button {
+    background: none;
+    border: none;
+}
+
+.accordin-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
