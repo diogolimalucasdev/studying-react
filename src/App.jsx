@@ -1,9 +1,11 @@
-import Accordion from './accordion'
+import Accordion from './class/accordion'
 import './App.css'
+import BuscarCep from './class/buscarCep'
 import Example from './class/example'
 import Js from './class/js'
-import Count from './count'
-import Fetch from './fetch'
+import Count from './class/count'
+import Fetch from './class/fetch'
+import Pokemon from './class/pokemom'
 
 
 export default function App() {
@@ -13,6 +15,8 @@ export default function App() {
      <Example />
      <Fetch></Fetch>
      <Count></Count> */}
-     <Accordion></Accordion>
+     {/* <Accordion></Accordion> */}
+      {/* <BuscarCep /> */}
+      <Pokemon></Pokemon>
     </div>)
 }
